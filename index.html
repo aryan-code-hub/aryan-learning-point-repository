@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Aryan | Linux & DevOps Portfolio</title>
+
+<style>
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: white;
+    background: linear-gradient(135deg, #141e30, #243b55, #6a11cb, #2575fc);
+    background-attachment: fixed;
+    line-height: 1.6;
+}
+
+/* Navigation */
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background: rgba(0,0,0,0.75);
+    backdrop-filter: blur(10px);
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 8px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #00ffff;
+}
+
+/* Hero */
+.hero-box {
+    max-width: 900px;
+    background: rgba(255,255,255,0.12);
+    padding: 50px;
+    border-radius: 30px;
+    backdrop-filter: blur(15px);
+    box-shadow: 0 20px 50px rgba(0,0,0,0.3);
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid rgba(255,255,255,0.8);
+    box-shadow: 0 0 30px rgba(0,255,255,0.7);
+    margin-bottom: 20px;
+}
+.hero h1 {
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 20px;
+}
+
+/* Sections */
+section {
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 30px 20px;
+}
+
+section h2 {
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+
+/* Cards */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: rgba(255,255,255,0.13);
+    padding: 25px;
+    border-radius: 20px;
+    backdrop-filter: blur(12px);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    background: rgba(255,255,255,0.2);
+}
+
+.card h3 {
+    color: #00ffff;
+    margin-bottom: 10px;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+/* Contact */
+.contact {
+    text-align: center;
+    background: rgba(0,0,0,0.25);
+    border-radius: 25px;
+}
+
+.contact p {
+    margin: 10px;
+    font-size: 18px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 30px;
+    margin-top: 50px;
+    background: rgba(0,0,0,0.6);
+}
+
+.highlight {
+    color: #00ffff;
+}
+
+@media(max-width:600px) {
+    .hero h1 {
+        font-size: 40px;
+    }
+
+    nav a {
+        display: inline-block;
+        font-size: 13px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+<a href="#home">Home</a>
+<a href="#about">About</a>
+<a href="#skills">Skills</a>
+<a href="#projects">Projects</a>
+<a href="#education">Education</a>
+<a href="#hobbies">Hobbies</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<!-- 1-5 -->
+<section class="hero" id="home">
+<div class="hero-box">
+<img src="profile.jpg" alt="Aryan Profile" class="profile-photo">
+<h1>Welcome to <span class="highlight">Aryan's Website</span></h1>
+<p>Linux • DevOps • Cloud • Web Hosting • Technology</p>
+<p>My journey from Linux basics to DevOps engineering.</p>
+</div>
+</section>
+
+<!-- 6-10 -->
+<section id="about">
+<h2>About Me</h2>
+<div class="grid">
+<div class="card"><h3>6. Introduction</h3><p>Hello! My name is Aryan. I am learning Linux and DevOps.</p></div>
+<div class="card"><h3>7. Career Goal</h3><p>My goal is to build a strong career in DevOps and Cloud.</p></div>
+<div class="card"><h3>8. Learning</h3><p>I enjoy learning practical technology through projects.</p></div>
+<div class="card"><h3>9. Technology</h3><p>I am interested in Linux, servers, automation and cloud computing.</p></div>
+<div class="card"><h3>10. Motivation</h3><p>Every practical project helps me improve my technical skills.</p></div>
+</div>
+</section>
+
+<!-- 11-25 -->
+<section id="skills">
+<h2>Technical Skills</h2>
+<div class="grid">
+<div class="card"><h3>11. Linux</h3><p>Linux commands, files, permissions and processes.</p></div>
+<div class="card"><h3>12. Ubuntu</h3><p>Ubuntu administration and terminal operations.</p></div>
+<div class="card"><h3>13. Bash</h3><p>Variables, scripts, commands and automation.</p></div>
+<div class="card"><h3>14. Python</h3><p>Python basics and simple web servers.</p></div>
+<div class="card"><h3>15. HTML</h3><p>Creating structured web pages.</p></div>
+<div class="card"><h3>16. CSS</h3><p>Designing colorful and responsive websites.</p></div>
+<div class="card"><h3>17. JavaScript</h3><p>Learning interactive web development.</p></div>
+<div class="card"><h3>18. Git</h3><p>Version control and source code management.</p></div>
+<div class="card"><h3>19. GitHub</h3><p>Code hosting and project collaboration.</p></div>
+<div class="card"><h3>20. Docker</h3><p>Learning containerization concepts.</p></div>
+<div class="card"><h3>21. Kubernetes</h3><p>Learning container orchestration.</p></div>
+<div class="card"><h3>22. AWS</h3><p>Exploring cloud computing and AWS services.</p></div>
+<div class="card"><h3>23. Networking</h3><p>IP addresses, ports, HTTP and connectivity.</p></div>
+<div class="card"><h3>24. VMware</h3><p>Using virtual machines for Linux practice.</p></div>
+<div class="card"><h3>25. Web Hosting</h3><p>Hosting websites using Linux and Python.</p></div>
+</div>
+</section>
+
+<!-- 26-35 -->
+<section id="projects">
+<h2>Projects</h2>
+<div class="grid">
+<div class="card"><h3>26. Linux Practice</h3><p>Created directories, files and managed permissions.</p></div>
+<div class="card"><h3>27. Bash Script</h3><p>Created a script using application variables.</p></div>
+<div class="card"><h3>28. Python Server</h3><p>Hosted a website using Python HTTP Server.</p></div>
+<div class="card"><h3>29. Portfolio Website</h3><p>Built this colorful Linux-hosted portfolio.</p></div>
+<div class="card"><h3>30. File Management</h3><p>Practiced copy, move, rename and archive operations.</p></div>
+<div class="card"><h3>31. Permissions</h3><p>Practiced chmod and read-only permissions.</p></div>
+<div class="card"><h3>32. Environment Variables</h3><p>Used exported variables for application configuration.</p></div>
+<div class="card"><h3>33. Networking</h3><p>Connected Windows browser to Ubuntu VM.</p></div>
+<div class="card"><h3>34. HTTP Hosting</h3><p>Served index.html over port 8080.</p></div>
+<div class="card"><h3>35. DevOps Practice</h3><p>Combined Linux, Bash and web hosting concepts.</p></div>
+</div>
+</section>
+
+<!-- 36-40 -->
+<section id="education">
+<h2>Education & Growth</h2>
+<div class="grid">
+<div class="card"><h3>36. Education</h3><p>Building technical knowledge through continuous learning.</p></div>
+<div class="card"><h3>37. Certifications</h3><p>Working toward relevant Linux and DevOps certifications.</p></div>
+<div class="card"><h3>38. Learning Journey</h3><p>Starting with Linux fundamentals and moving toward DevOps.</p></div>
+<div class="card"><h3>39. Future Learning</h3><p>Cloud, containers, CI/CD and infrastructure automation.</p></div>
+<div class="card"><h3>40. Problem Solving</h3><p>Learning by troubleshooting real technical problems.</p></div>
+</div>
+</section>
+
+<!-- 41-45 -->
+<section id="hobbies">
+<h2>Hobbies & Interests</h2>
+<div class="grid">
+<div class="card"><h3>41. Coding</h3><p>Writing code and experimenting with technology.</p></div>
+<div class="card"><h3>42. Gaming</h3><p>Gaming and exploring digital experiences.</p></div>
+<div class="card"><h3>43. Music</h3><p>Listening to music while learning and working.</p></div>
+<div class="card"><h3>44. Technology</h3><p>Exploring new tools and technologies.</p></div>
+<div class="card"><h3>45. Travel</h3><p>Exploring new places and experiences.</p></div>
+</div>
+</section>
+
+<!-- 46-50 -->
+<section id="contact">
+<h2>Future & Contact</h2>
+<div class="grid">
+<div class="card"><h3>46. Future Projects</h3><p>Build more Linux and DevOps automation projects.</p></div>
+<div class="card"><h3>47. Cloud Goal</h3><p>Develop strong AWS and cloud infrastructure skills.</p></div>
+<div class="card"><h3>48. Automation</h3><p>Automate repetitive tasks using Bash, Python and DevOps tools.</p></div>
+<div class="card"><h3>49. Career Goal</h3><p>Become a skilled DevOps and Cloud professional.</p></div>
+<div class="card"><h3>50. Motivation</h3><p>"Keep learning, keep building, keep improving!"</p></div>
+</div>
+
+<div class="contact">
+<br>
+<p>📧 Email: aryan@example.com</p>
+<p>💻 GitHub: github.com/aryan</p>
+<p>🔗 LinkedIn: linkedin.com/in/aryan</p>
+<p>🌐 Hosted on Ubuntu Linux</p>
+<p>⚡ Powered by Python HTTP Server</p>
+</div>
+</section>
+
+<footer>
+<p>© 2026 Aryan | Linux & DevOps Portfolio</p>
+<p>Built with HTML & CSS on Ubuntu Linux 🚀</p>
+</footer>
+
+</body>
+</html>
